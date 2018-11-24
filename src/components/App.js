@@ -1,4 +1,5 @@
 import Header from './Header';
+import Footer from './Footer';
 import React from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import { inject, observer } from 'mobx-react';
@@ -45,6 +46,7 @@ export default class App extends React.Component {
             <Route path="/@:username/favorites" component={Profile} />
             <Route path="/" component={Home} />
           </Switch>
+          <Footer />
         </div>
       );
     }

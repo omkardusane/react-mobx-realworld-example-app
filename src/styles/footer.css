@@ -1,0 +1,36 @@
+.footer{
+    position:fixed;
+    z-index: 10;
+    bottom:0;
+    width:100%;
+    min-height:50px ;
+    /* height:60px;  */
+    background: #112211;
+    color: #eee;
+}
+
+.footer-links-container{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.footer-links-list{
+    display: inline-block;
+    margin:1%;
+    min-width: 10%;
+}
+
+.footer-links-list-title{
+    text-transform: uppercase;
+    margin:1%;
+    min-width: 10%;
+}
+
+.footer-logo{
+    display: inline-block;
+    align-self: right;
+    margin:1%;
+    min-width: 15%;
+}
